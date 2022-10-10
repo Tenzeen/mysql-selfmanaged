@@ -35,7 +35,6 @@
 2. ```sudo apt install mysql-server mysql client```
     - type y then enter to continue
 3. ```sudo mysql```
-        
         ***to enter the mysql server***
 5. ```create user 'username'@'%' identified by 'password';```   
         ***to create a user on mysql***
