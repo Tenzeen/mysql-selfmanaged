@@ -25,7 +25,8 @@
     - hit save
 2. Open the SSH browser
     - ```sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf``` and then hit enter
-    - go down to bind-address, delete the existing IP address, and then type 0.0.0.0 
+    - go down to bind-address, delete the existing IP address, and then type 0.0.0.0
+    
         ***take on the ip of the virtual machine***
     - ```sudo /etc/init.d/mysql restart```
         ***restart mysql to make sure changes are in effect***
