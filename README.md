@@ -44,7 +44,7 @@
 10. create database db1; 
         ***to create an empty database within mysql server***
 12. use db1; 
-        ***to select the database***
+        *** to select the database ***
 14. create table table1; 
         ***to create a table in the selected database***
 
