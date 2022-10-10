@@ -1,6 +1,6 @@
 ### mysql-selfmanaged
 
-## ***For this assignment I will be using GCP because I ran out of Azure credits.
+## ***For this assignment I will be using GCP because I ran out of Azure credits.***
 
 ## Setting up the VM:
 1. Name the VM
