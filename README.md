@@ -35,11 +35,12 @@
 2. sudo apt install mysql-server mysql client
     - type y then enter to continue
 3. sudo mysql #to enter the mysql server
-4. create user 'username'@'%' identified by 'password';   **to create a user on mysql
-5. grant all privileges on. to 'dba'@'%' with grant option; **to give the user privileges
-6. mysql -u user -p; **log into user on mysql
-7. create database db1; **to create an empty database within mysql server
-8. use db1; **to select the database
-9. create table table1; **to create a table in the selected database
-10. 
+4. create user 'username'@'%' identified by 'password';   
+        ** to create a user on mysql
+6. grant all privileges on. to 'dba'@'%' with grant option; **to give the user privileges
+7. mysql -u user -p; **log into user on mysql
+8. create database db1; **to create an empty database within mysql server
+9. use db1; **to select the database
+10. create table table1; **to create a table in the selected database
+11. 
  
