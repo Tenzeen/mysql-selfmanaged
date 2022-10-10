@@ -36,24 +36,24 @@
     - type y then enter to continue
 3. ```sudo mysql```
         
-        ***to enter the mysql server***
+        to enter the mysql server
 5. ```create user 'username'@'%' identified by 'password';```   
         
-        ***to create a user on mysql***
+        to create a user on mysql
 6. ```grant all privileges on. to 'dba'@'%' with grant option; ```
         
-        ***to give the user privileges***
+        to give the user privileges
 8. ```mysql -u user -p;```
         
-        ***log into user on mysql***
+        log into user on mysql
 10. ```create database db1;```
         
-        ***to create an empty database within mysql server***
+        to create an empty database within mysql server
 12. ```use db1;``` 
         
-        ***to select the database***
+        to select the database
 14. ```create table table1;```
         
-        ***to create a table in the selected database***
+        to create a table in the selected database
 
  
