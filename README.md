@@ -33,7 +33,8 @@
 ## Setting up the OS image:
 1. ```sudo apt-get update```
 2. ```sudo apt install mysql-server mysql client```
-    - type y then enter to continue
+ 
+        type y then enter to continue
 3. ```sudo mysql```
         
         to enter the mysql server
