@@ -24,30 +24,28 @@
     - select tcp and enter 3306 for its port
     - hit save
 2. Open the SSH browser
-    - type: 'sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf' and then hit enter
+    - ```sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf``` and then hit enter
     - go down to bind-address, delete the existing IP address, and then type 0.0.0.0 
         ***take on the ip of the virtual machine***
-    - type: sudo /etc/init.d/mysql restart
+    - ```sudo /etc/init.d/mysql restart```
         ***restart mysql to make sure changes are in effect***
 
 ## Setting up the OS image:
 1. ```sudo apt-get update```
-2. sudo apt install mysql-server mysql client
+2. ```sudo apt install mysql-server mysql client```
     - type y then enter to continue
-3. sudo mysql #to enter the mysql server
-4. create user 'username'@'%' identified by 'password';   
+3. ```sudo mysql #to enter the mysql server```
+4. ```create user 'username'@'%' identified by 'password';```   
         ***to create a user on mysql***
-6. grant all privileges on. to 'dba'@'%' with grant option; 
+6. ```grant all privileges on. to 'dba'@'%' with grant option; ```
         ***to give the user privileges***
-8. mysql -u user -p; 
+8. ```mysql -u user -p;```
         ***log into user on mysql***
-10. create database db1; 
+10. ```create database db1;```
         ***to create an empty database within mysql server***
-12. use db1; 
-
+12. ```use db1;``` 
         ***to select the database***
-14. create table table1;
- 
+14. ```create table table1;```
         ***to create a table in the selected database***
 
  
