@@ -36,7 +36,7 @@
     - type y then enter to continue
 3. sudo mysql #to enter the mysql server
 4. create user 'username'@'%' identified by 'password';   
-        **to create a user on mysql**
+        *to create a user on mysql*
 6. grant all privileges on. to 'dba'@'%' with grant option; **to give the user privileges
 7. mysql -u user -p; **log into user on mysql
 8. create database db1; **to create an empty database within mysql server
